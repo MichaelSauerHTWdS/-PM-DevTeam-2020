@@ -10,7 +10,7 @@
 #define ITEM_KOM6   6
 #define ITEM_KOM7   7
 #define ITEM_KOM8   8
-#define ITEM_KOM8   9
+#define ITEM_KOM9   9
 #define ITEM_ENDE   10
 
 
