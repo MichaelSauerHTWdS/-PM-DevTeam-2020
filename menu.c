@@ -38,6 +38,7 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 14\t14. Marius Steffens\n",
                   " 15\t15. Marcel Hesselbach\n",
                 " 16\t16. Martin Harasch\n",
+				" 17\t17. Julian Klotz\n",
                   " 99\a\tEnde\n"};
 
 int steuerMenu(void);
