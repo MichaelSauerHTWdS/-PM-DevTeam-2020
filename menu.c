@@ -26,7 +26,7 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 8\t8. Jorin Spiller\n",
                   " 9\t9. Maurice Faber\n"
                   " 10\a\tEnde\n"};
-                  
+
 int steuerMenu(void);
 
 int main(int argc, char* argv[])
@@ -64,8 +64,12 @@ int steuerMenu()
       case ITEM_KOM5:  printf("%s",komMenu[ITEM_KOM5]);
 			 break;
       case ITEM_KOM6:  printf("%s",komMenu[ITEM_KOM6]);
-			 break;
+       break;
       case ITEM_KOM7:  printf("%s",komMenu[ITEM_KOM7]);
+       break;
+      case ITEM_KOM8:  printf("%s",komMenu[ITEM_KOM8]);
+       break;
+      case ITEM_KOM9:  printf("%s",komMenu[ITEM_KOM9]);
 			 break;
       case  ITEM_ENDE:   printf("%s",komMenu[ITEM_ENDE]);
                          break;
