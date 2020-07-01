@@ -15,12 +15,9 @@
 #define ITEM_KOM11  11
 #define ITEM_KOM12  12
 #define ITEM_KOM13  13
-<<<<<<< HEAD
-#define ITEM_KOM13  14
-#define ITEM_KOM15  15
-=======
 #define ITEM_KOM14  14
->>>>>>> 5702f05668a2390a3d1837351b778e58ce1160c5
+#define ITEM_KOM15  15
+#define ITEM_KOM16  16
 #define ITEM_ENDE   99
 
 
@@ -39,7 +36,8 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 12\t12. Maurice Faber\n",
                   " 13\t13. Nils Schneider\n",
                   " 14\t14. Marius Steffens\n",
-                " 15\t15. Martin Harasch\n",
+                  " 15\t15. Marcel Hesselbach\n",
+                " 16\t16. Martin Harasch\n",
                   " 99\a\tEnde\n"};
 
 int steuerMenu(void);
@@ -96,7 +94,9 @@ int steuerMenu()
               break;
           case ITEM_KOM14:  printf("%s",komMenu[ITEM_KOM14]);
               break;
-        case ITEM_KOM15:  printf("%s",komMenu[ITEM_KOM15]);
+          case ITEM_KOM15:  printf("%s",komMenu[ITEM_KOM15]);
+              break;
+        case ITEM_KOM16:  printf("%s",komMenu[ITEM_KOM16]);
               break;
       case  ITEM_ENDE:   printf("%s",komMenu[end-1]);
                          break;
