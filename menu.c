@@ -15,7 +15,7 @@
 #define ITEM_KOM11  11
 #define ITEM_KOM12  12
 #define ITEM_KOM13  13
-#define ITEM_KOM13  14
+#define ITEM_KOM14  14
 #define ITEM_ENDE   99
 
 
@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 int steuerMenu()
   {
   int kommando = 1;
-
+  int end = (sizeof(komMenu)/sizeof(char *);
   do{ 
     for (int i=0; i<(sizeof(komMenu)/sizeof(char *)); i++)
       {
@@ -100,7 +100,9 @@ int steuerMenu()
                         break;
         case ITEM_KOM13:  printf("%s",komMenu[ITEM_KOM13]);
               break;
-      case  ITEM_ENDE:   printf("%s",komMenu[ITEM_ENDE]);
+          case ITEM_KOM14:  printf("%s",komMenu[ITEM_KOM14]);
+              break;
+      case  ITEM_ENDE:   printf("%s",komMenu[end-1]);
                          break;
       default: printf("\nkein Kommando\n");
       }
