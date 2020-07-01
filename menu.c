@@ -30,29 +30,17 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 2\t2.Kommando\n",
                   " 3\t3.Kommando\n",
                   " 4\t4.Tim Schneider\n",
-<<<<<<< HEAD
-                  " 5\t5.Alexander Tröger\n",
-                  " 6\t6.Tim Weber\n",
-                  " 7\t7. David Holzapfel\n",
-                  " 8\t8. Jorin Spiller\n",
-                  " 9\t9. Maurice Faber\n"
-                  " 10\t10. Nils Schneider\n",
-                  " 1337\t1337. Marcel Hesselbach\n",
-   		          " 11\a\tEnde\n"};
-
-=======
 		         " 5\t5.Alexander Tröger\n",
 		         " 6\t6.Tim Weber\n",
                 " 7\t7.David Holzapfel\n",
 		        " 9\t9.David Berres\n",
                 " 10\t10. Jorin Spiller\n",
-                  " 11\t11. Jorin Spiller\n",
+                  " 11\t11. Isabelle Müller\n",
                   " 12\t12. Maurice Faber\n",
                   " 13\t13. Nils Schneider\n",
                   " 14\t14. Marius Steffens\n",
                 " 15\t15. Martin Harasch\n",
                   " 99\a\tEnde\n"};
->>>>>>> 4e6f059724b254ab255fdd8f9468045a73cacd06
 
 int steuerMenu(void);
 
