@@ -22,19 +22,13 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 3\t3.Kommando\n",
                   " 4\t4.Tim Schneider\n",
 
-		  " 5\t5.Alexander Tröger\n",
-		  " 6\t6.Tim Weber\n",
-      " 7\t7. David Holzapfel\n",
-      " 8\t8. Jorin Spiller\n",
-      " 10\t10. Nils Schneider\n",
-                  " 10\a\tEnde\n"};
-
-		              " 5\t5.Alexander Tröger\n",
-		              " 6\t6.Tim Weber\n",
+                  " 5\t5.Alexander Tröger\n",
+                  " 6\t6.Tim Weber\n",
                   " 7\t7. David Holzapfel\n",
                   " 8\t8. Jorin Spiller\n",
                   " 9\t9. Maurice Faber\n"
-                  " 11\a\tEnde\n"};
+                  " 10\t10. Nils Schneider\n",
+   		          " 11\a\tEnde\n"};
 
 
 int steuerMenu(void);
