@@ -15,12 +15,12 @@
 #define ITEM_KOM11  11
 #define ITEM_KOM12  12
 #define ITEM_KOM13  13
-<<<<<<< HEAD
+
 #define ITEM_KOM13  14
 #define ITEM_KOM15  15
-=======
+
 #define ITEM_KOM14  14
->>>>>>> 5702f05668a2390a3d1837351b778e58ce1160c5
+
 #define ITEM_ENDE   99
 
 
