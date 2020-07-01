@@ -29,6 +29,13 @@ char * komMenu[]={"\n 0\tHilfetext\n",
       " 7\t7. David Holzapfel\n",
       " 8\t8. Jorin Spiller\n",
                   " 8\a\tEnde\n"};
+		              " 5\t5.Alexander Tröger\n",
+		              " 6\t6.Tim Weber\n",
+                  " 7\t7. David Holzapfel\n",
+                  " 8\t8. Jorin Spiller\n",
+                  " 9\t9. Maurice Faber\n"
+                  " 10\a\tEnde\n"};
+
 int steuerMenu(void);
 
 int main(int argc, char* argv[])
@@ -71,6 +78,11 @@ int steuerMenu()
 			             break;
       case  ITEM_KOM8:   printf("%s",komMenu[ITEM_KOM8]);
                          break;
+       break;
+      case ITEM_KOM8:  printf("%s",komMenu[ITEM_KOM8]);
+       break;
+      case ITEM_KOM9:  printf("%s",komMenu[ITEM_KOM9]);
+			 break;
       case  ITEM_ENDE:   printf("%s",komMenu[ITEM_ENDE]);
                          break;
       default: printf("\nkein Kommando\n");
