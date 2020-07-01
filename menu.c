@@ -96,6 +96,8 @@ int steuerMenu()
               break;
           case ITEM_KOM14:  printf("%s",komMenu[ITEM_KOM14]);
               break;
+        case ITEM_KOM15:  printf("%s",komMenu[ITEM_KOM15]);
+              break;
       case  ITEM_ENDE:   printf("%s",komMenu[end-1]);
                          break;
       default: printf("\nkein Kommando\n");
