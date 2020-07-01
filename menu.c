@@ -11,7 +11,7 @@
 #define ITEM_KOM7   7
 #define ITEM_KOM8   8
 #define ITEM_KOM9   9
-#define ITEM_KOM10   10
+#define ITEM_KOM10  10
 #define ITEM_KOM11  11
 #define ITEM_KOM12  12
 #define ITEM_KOM13  13
