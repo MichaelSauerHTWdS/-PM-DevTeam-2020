@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 int steuerMenu()
   {
   int kommando = 1;
-  int end = (sizeof(komMenu)/sizeof(char *);
+  int end = (sizeof(komMenu)/sizeof(char *));
   do{ 
     for (int i=0; i<(sizeof(komMenu)/sizeof(char *)); i++)
       {
