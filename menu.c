@@ -20,6 +20,7 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 8\t8. Jorin Spiller\n",
                   " 9\t9. Maurice Faber\n"
                   " 10\t10. Nils Schneider\n",
+                  " 1337\t1337. Marcel Hesselbach\n",
    		          " 11\a\tEnde\n"};
 
 
