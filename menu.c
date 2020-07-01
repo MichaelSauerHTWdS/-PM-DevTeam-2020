@@ -9,7 +9,8 @@
 #define ITEM_KOM5   5
 #define ITEM_KOM6   6
 #define ITEM_KOM7   7
-#define ITEM_ENDE   8
+#define ITEM_KOM8   8
+#define ITEM_ENDE   9
 #define ITEM_KOM111
 
 
@@ -21,7 +22,8 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 4\t4.Tim Schneider\n",
 		  " 5\t5.Alexander Tröger\n",
 		  " 6\t6.Tim Weber\n",
-      " 7\t7. David Holzapfel\n"
+      " 7\t7. David Holzapfel\n",
+      " 8\t8. Jorin Spiller\n",
                   " 8\a\tEnde\n"};
 int steuerMenu(void);
 
